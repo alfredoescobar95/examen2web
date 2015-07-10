@@ -1,0 +1,31 @@
+#tabla{
+    background-color:red;
+    text-align: center;
+    border-style: dashed;
+}
+#tabla:nth-child(even) td:nth-child(odd){
+    
+    background-color:blue;
+    table-layout: justify;
+    
+}
+#tabla:nth-child(even) td:nth-child(odd){
+    
+    background-color: blue;
+    table-layout: justify;
+    
+}
+body{
+	text-align: center;
+}
+input[type="submit"]:hover
+{
+background-color:orange;
+    border: thin solid transparent;
+    border-radius: .10em;
+    cursor: pointer;
+    font-size: 1em;
+    padding: .10em;
+    width: 30%;
+    padding: 20px 20px;
+}
